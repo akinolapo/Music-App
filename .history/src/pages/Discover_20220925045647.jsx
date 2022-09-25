@@ -26,11 +26,7 @@ const Discover = () => {
         {data?.map((song, i) => (
           <SongCard
             key={song.key}
-            song={song}
-            isPlaying={isPlaying}
-            activeSong={activeSong}
-            data={data}
-            i={i}
+            song={song} i={i} 
           />
         ))}
       </div>
