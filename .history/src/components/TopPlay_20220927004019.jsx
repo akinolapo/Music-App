@@ -67,7 +67,7 @@ const TopPlay = () => {
         </div>
 
         <Swiper
-          slidesPerView="auto"
+          slidePerView="auto"
           spaceBetween={15}
           freeMode
           centeredSlides
@@ -82,7 +82,7 @@ const TopPlay = () => {
               className="shadow-lg rounded-full animate-slideright"
             >
               <Link to={`/artists/${song?.artists[0].adamid}`}>
-                <img src={song?.images.background} alt="name" className="rounded-full w-full object-cover" />
+                <img src={song?.images.background} alt="name" />
               </Link>
             </SwiperSlide>
           ))}
