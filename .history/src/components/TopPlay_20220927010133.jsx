@@ -75,7 +75,7 @@ const TopPlay = () => {
               isPlaying={isPlaying}
               activeSong={activeSong}
               handlePauseClick={handlePauseClick}
-              handlePlayClick={() => handlePlayClick(song, i)}
+              handlePlayClick={() =>handlePlayClick}
             />
           ))}
         </div>
